@@ -9,6 +9,7 @@
       </div>
     </center>
     <div class="w3-bar w3-yellow">
+    <button class="w3-bar-item w3-button" onclick="openKota('home')">HOME</button>
     <button class="w3-bar-item w3-button" onclick="openKota('arai')">ARAI</button>
     <button class="w3-bar-item w3-button" onclick="openKota('agv')">AGV</button>
     <button class="w3-bar-item w3-button" onclick="openKota('kyt')">KYT</button>
@@ -16,54 +17,62 @@
     <button class="w3-bar-item w3-button" onclick="openKota('shoei')">SHOEI</button>
     <button class="w3-bar-item w3-button" onclick="openKota('about')">ABOUT</button>
     </div>
-    <div id="arai" class="w3-container kota w3-animate-Top" style="display:none">
-         <center>
-        <h2>HELM ARAI</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="Home" class="w3-container kota w3-floating" style="display: block;">
+      <center>
         <br>
-        <img src="arai.jpg" height="30%">
-        <p><b>Arai</b> merupakan salah satu perusahaan helm ternama di dunia yang berdiri selama lebih dari 60 tahun. Dikelola oleh tiga generasi dengan mengutamakan aspek keselamatan membuat kualitasnya telah diakui di seluruh penjuru dunia.</p>
-        </center>
-    </div>
-    <div id="agv" class="w3-container kota w3-animate-Bottom" style="display:none">
-         <center>
-        <h2>HELM AGV</h2>
-        <br>
-        <img src="agv.jpg" height="35%">
-        <p><b>AGV</b> didirikan pada tahun 1946 oleh Gino Amisano di kota Valenza di wilayah Piedmont di Italia. Awalnya perusahaan AGV hanya memproduksi helm sepeda dan kursi kulit untuk sepeda motor, lalu 1 tahun setelahnya barulah AGV mulai memproduksi helm sepeda motor yang dibuat manual dengan tangan dari bahan kulit sapi</p>
-        </center>
-    </div>
-    <div id="kyt" class="w3-container kota w3-animate-Left" style="display:none">
-         <center>
-        <h2>HELM KYT</h2>
-        <br>
-        <img src="kyt.jpg" height="35%">
-        <p><b>KYT</b> lahir sebagai "Racing Idea Project" yang diilhami oleh pendirinya Mr Eddy Tedjakusuma, yang sejak 1980 telah berhasil membuat grup PT TARA sebagai salah satu manufaktur produksi helm terbesar di dunia hingga saat ini.</p>
-        </center>
-    </div>
-    <div id="nhk" class="w3-container kota w3-animate-Right" style="display:none">
-         <center>
-        <h2>HELM NHK</h2>
-        <br>
-        <img src="nhk.jpg" height="35%">
-        <p><b>NHK</b> Indonesia berdiri pada bulan September 2017 dengan Bapak Iwan Lyman sebagai direktur utamanya. Sedangkan merk NHK yang awalnya dipegang oleh PT. Danapersadaraya Motor Industry sendiri telah ada sejak tahun 2004.</p>
-        </center>
-    </div>
-    <div id="shoei" class="w3-container kota w3-animate-Zoom" style="display:none">
-         <center>
-        <h2>HELM SHOEI</h2>
-        <br>
-        <img src="shoei.jpg" height="35%">
-        <p><b>SHOEI</b> didirikan oleh Eitaro Kamata pada 1950 di Jepang. Perusahaan ini awalnya membuat topi berbahan keras untuk industri konstruksi. Pada 1958 Shoei yang masih bernama Kamata Polyester Canopy mulai membuat helm. Kemudian pada 1960, Shoei mulai terlibat di arena balap motor dan semakin dikenal.</p>
-        </center>
-    </div>
-    <div id="about" class="w3-container kota w3-animate-Zoom" style="display:none">
-         <center>
-          <h1>NIM : 10122061</h1>
+        <img src="welcome.jpg" width="100%"     
+      </center>
+    </div>  
+      <div id="arai" class="w3-container kota w3-animate-Top" style="display:none">
+          <center>
+          <h2>HELM ARAI</h2>
           <br>
-          <h1>NAMA : TRYANA ADIGUMILAR</h1>
+          <img src="arai.jpg" height="30%">
+          <p><b>Arai</b> merupakan salah satu perusahaan helm ternama di dunia yang berdiri selama lebih dari 60 tahun. Dikelola oleh tiga generasi dengan mengutamakan aspek keselamatan membuat kualitasnya telah diakui di seluruh penjuru dunia.</p>
+          </center>
+      </div>
+      <div id="agv" class="w3-container kota w3-animate-Bottom" style="display:none">
+          <center>
+          <h2>HELM AGV</h2>
           <br>
-          <h1>KELAS : IF-2</h1>
-         </center>
+          <img src="agv.jpg" height="35%">
+          <p><b>AGV</b> didirikan pada tahun 1946 oleh Gino Amisano di kota Valenza di wilayah Piedmont di Italia. Awalnya perusahaan AGV hanya memproduksi helm sepeda dan kursi kulit untuk sepeda motor, lalu 1 tahun setelahnya barulah AGV mulai memproduksi helm sepeda motor yang dibuat manual dengan tangan dari bahan kulit sapi</p>
+          </center>
+      </div>
+      <div id="kyt" class="w3-container kota w3-animate-Left" style="display:none">
+          <center>
+          <h2>HELM KYT</h2>
+          <br>
+          <img src="kyt.jpg" height="35%">
+          <p><b>KYT</b> lahir sebagai "Racing Idea Project" yang diilhami oleh pendirinya Mr Eddy Tedjakusuma, yang sejak 1980 telah berhasil membuat grup PT TARA sebagai salah satu manufaktur produksi helm terbesar di dunia hingga saat ini.</p>
+          </center>
+      </div>
+      <div id="nhk" class="w3-container kota w3-animate-Right" style="display:none">
+          <center>
+          <h2>HELM NHK</h2>
+          <br>
+          <img src="nhk.jpg" height="35%">
+          <p><b>NHK</b> Indonesia berdiri pada bulan September 2017 dengan Bapak Iwan Lyman sebagai direktur utamanya. Sedangkan merk NHK yang awalnya dipegang oleh PT. Danapersadaraya Motor Industry sendiri telah ada sejak tahun 2004.</p>
+          </center>
+      </div>
+      <div id="shoei" class="w3-container kota w3-animate-Zoom" style="display:none">
+          <center>
+          <h2>HELM SHOEI</h2>
+          <br>
+          <img src="shoei.jpg" height="35%">
+          <p><b>SHOEI</b> didirikan oleh Eitaro Kamata pada 1950 di Jepang. Perusahaan ini awalnya membuat topi berbahan keras untuk industri konstruksi. Pada 1958 Shoei yang masih bernama Kamata Polyester Canopy mulai membuat helm. Kemudian pada 1960, Shoei mulai terlibat di arena balap motor dan semakin dikenal.</p>
+          </center>
+      </div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div id="about" class="w3-container kota w3-animate-Opacity" style="display:none">
+          <center>
+            <h1>NIM : 10122061</h1>
+            <br>
+            <h1>NAMA : TRYANA ADIGUMILAR</h1>
+            <br>
+            <h1>KELAS : IF-2</h1>
+          </center>
     </div>
     <script>
       function openKota(namakota) {
